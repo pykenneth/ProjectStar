@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "field_services_app"
+version = "0.1"
+description = "A comprehensive field services management application"
+requires-python = ">=3.8"
+dynamic = ["dependencies", "authors", "keywords", "classifiers", "urls"]
